@@ -406,6 +406,9 @@ GEM
     thor (0.20.0)
     thread_safe (0.3.6)
     tilt (2.0.8)
+    turbolinks (5.0.1)
+      turbolinks-source (~> 5)
+    turbolinks-source (5.0.3)
     tzinfo (1.2.4)
       thread_safe (~> 0.1)
     uglifier (3.2.0)
@@ -506,6 +509,7 @@ DEPENDENCIES
   spring-watcher-listen
   stackprof
   terminal-notifier-guard
+  turbolinks
   uglifier (>= 2.7.2)
   validates_email_format_of
   web-console
