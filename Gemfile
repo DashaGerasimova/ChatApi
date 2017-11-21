@@ -6,6 +6,7 @@ git_source(:github) do |repo_name|
 end
 
 gem "pg"
+gem 'graphql', '1.7.4'
 gem "rails", "5.1.2"
 
 # assets
@@ -41,6 +42,7 @@ gem "health_check"
 gem "interactor"
 gem "kaminari"
 gem "memory_profiler"
+gem "turbolinks"
 gem "puma"
 gem "pundit"
 gem "rack-canonical-host"
@@ -80,6 +82,7 @@ group :development, :test do
   gem "dotenv-rails"
   gem "factory_girl_rails"
   gem "faker"
+  gem 'graphiql-rails', '1.4.4'
   gem "jasmine", "> 2.0"
   gem "jasmine-jquery-rails"
   gem "pry-rails"

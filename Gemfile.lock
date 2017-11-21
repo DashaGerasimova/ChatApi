@@ -153,6 +153,9 @@ GEM
     globalid (0.4.1)
       activesupport (>= 4.2.0)
     google-analytics-rails (1.1.1)
+    graphiql-rails (1.4.4)
+      rails
+    graphql (1.7.4)
     guard (2.14.1)
       formatador (>= 0.2.4)
       listen (>= 2.7, < 4.0)
@@ -403,6 +406,9 @@ GEM
     thor (0.20.0)
     thread_safe (0.3.6)
     tilt (2.0.8)
+    turbolinks (5.0.1)
+      turbolinks-source (~> 5)
+    turbolinks-source (5.0.3)
     tzinfo (1.2.4)
       thread_safe (~> 0.1)
     uglifier (3.2.0)
@@ -457,6 +463,8 @@ DEPENDENCIES
   foundation-icons-sass-rails
   foundation-rails
   google-analytics-rails
+  graphiql-rails (= 1.4.4)
+  graphql (= 1.7.4)
   guard-rspec
   health_check
   inky-rb
@@ -501,6 +509,7 @@ DEPENDENCIES
   spring-watcher-listen
   stackprof
   terminal-notifier-guard
+  turbolinks
   uglifier (>= 2.7.2)
   validates_email_format_of
   web-console
