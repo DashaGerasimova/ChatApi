@@ -46,6 +46,7 @@ gem "turbolinks"
 gem "puma"
 gem "pundit"
 gem "rack-canonical-host"
+gem 'rack-cors', :require => 'rack/cors'
 gem "rack-mini-profiler", require: false, git: "https://github.com/MiniProfiler/rack-mini-profiler.git"
 gem "responders"
 gem "rollbar"
