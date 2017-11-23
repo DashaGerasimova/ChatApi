@@ -264,6 +264,7 @@ GEM
     rack-canonical-host (0.2.3)
       addressable (> 0, < 3)
       rack (>= 1.0.0, < 3)
+    rack-cors (1.0.2)
     rack-test (0.6.3)
       rack (>= 1.0)
     rails (5.1.2)
@@ -485,6 +486,7 @@ DEPENDENCIES
   puma
   pundit
   rack-canonical-host
+  rack-cors
   rack-mini-profiler!
   rails (= 5.1.2)
   rails-assets-jquery-ujs!
