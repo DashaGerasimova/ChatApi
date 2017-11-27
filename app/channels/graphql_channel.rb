@@ -1,5 +1,4 @@
-module ApplicationCable
-  class Channel < ActionCable::Channel::Base
+class GraphQLChannel < ApplicationCable::Channel
   	include GraphQL::Streaming::ActionCableChannel
 
     def fetch(data)
@@ -23,4 +22,3 @@ module ApplicationCable
       end
     end
   end
-end
