@@ -1,5 +1,10 @@
-development:
-  adapter: async
+development: &development
+  adapter: redis
+  host: localhost
+  port: 6379
+  timeout: 1
+  inline: true
+  url: redis://localhost:6379
 
 test:
   adapter: async

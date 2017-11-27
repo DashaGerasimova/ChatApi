@@ -32,6 +32,7 @@ gem "simple_form"
 gem "slim"
 
 # all other gems
+gem 'actioncable'
 gem "decent_decoration"
 gem "decent_exposure"
 gem "devise"
@@ -49,6 +50,7 @@ gem "pundit"
 gem "rack-canonical-host"
 gem 'rack-cors', :require => 'rack/cors'
 gem "rack-mini-profiler", require: false, git: "https://github.com/MiniProfiler/rack-mini-profiler.git"
+gem "redis", "~> 3.0" 
 gem "responders"
 gem "rollbar"
 gem "seedbank"
