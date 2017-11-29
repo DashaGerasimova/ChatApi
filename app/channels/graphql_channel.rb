@@ -23,7 +23,6 @@ class GraphqlChannel < ApplicationCable::Channel
   end	
   def subscribed
     stream_for "messages"
-    broadcast_to(:messages, messages: Message.all.as_json)
   end
 
   def unsubscribed
