@@ -1,16 +1,8 @@
 class JsonWebToken
   def self.verify(token)
-  	
-  end
-
-  private
-
-  def decode(token)
-    JWT.decode(token, "kittens",
-	  true, # Verify the signature of this token
-	  algorithm: 'HS512',
-	  verify_iss: true)
-  rescue
-    nil
+  	JWT.decode(token, ENV["SECRET_OAUTH_KEY"],
+    true,
+    algorithm: 'HS512',
+    verify_iss: true)
   end
 end
